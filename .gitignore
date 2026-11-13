@@ -1,0 +1,13 @@
+# Downloaded checkers (luacheck, wowlua-ls) and reference clones; see README.md, Setup
+tools/bin/
+tools/vendor/
+
+# Exported data pulled out of the game client (large, regenerable)
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/*.log

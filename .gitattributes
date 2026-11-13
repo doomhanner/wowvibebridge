@@ -1,0 +1,2 @@
+# Store text files with LF in the repository; each checkout uses its own line-ending setting.
+* text=auto

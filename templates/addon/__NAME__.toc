@@ -1,0 +1,10 @@
+## Interface: __INTERFACE__
+## Title: __TITLE__
+## Notes: TODO one-line description shown in the addon list.
+## Author: __AUTHOR__
+## Version: 0.1.0
+## OptionalDeps: DevBridge
+## SavedVariables: __NAME__DB
+
+__NAME__.lua
+Options.lua

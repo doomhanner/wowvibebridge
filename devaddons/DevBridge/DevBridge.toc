@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: DevBridge
+## Notes: Development helper. Records Lua errors, debug logs and API probe results so they can be read outside the game after /reload.
+## Author: doomhanner
+## Version: 0.2.0
+## Category: Development Tools
+## SavedVariables: DevBridgeDB
+
+Core.lua
+Probes.lua
