@@ -28,7 +28,7 @@ WTF\...\SavedVariables\DevBridge.lua  <--written on /reload, logout, exit--
 | Read results | `python tools/wowdev.py sv DevBridge` | Prints the file's age first: data is only as fresh as the last `/reload` |
 | Refresh API list | in game `/dvb api`, `/reload`, then `python tools/wowdev.py export-api` | Writes `data/api-inventory.json`; apicheck prefers it over Ketho's list |
 | Remove | `python tools/wowdev.py undeploy Name` | Only removes folders deploy created (they carry a `.wowdev-managed` marker) |
-| Tests | `python -m unittest discover -s tools -p "test_*.py"` | Tooling tests (100 on 2026-11-11) |
+| Tests | `python -m unittest discover -s tools -p "test_*.py"` | Tooling tests; all must pass |
 
 ## Working from a git worktree (app sessions)
 
